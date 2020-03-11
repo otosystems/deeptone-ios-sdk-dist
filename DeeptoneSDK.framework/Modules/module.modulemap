@@ -1,0 +1,11 @@
+framework module DeeptoneSDK {
+  umbrella header "DeeptoneSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module DeeptoneSDK.Swift {
+    header "DeeptoneSDK-Swift.h"
+    requires objc
+}
