@@ -20,7 +20,7 @@ import DeeptoneSDK
 let filePath = Bundle.main.path(forResource: "YourModel", ofType: "model")
 let deeptone = try! Deeptone(modelPath: filePath!)
 
-let audioFile = Bundle.main.path(forResource: "Your4SecsAudioFile", ofType: ".m4a")
+let audioFile = Bundle.main.path(forResource: "YourAudioFile", ofType: ".m4a")
 let data: DeeptoneOutput = try! deeptone.loadAudioFile(filePath: audioFile!)
 ```
 
@@ -50,7 +50,7 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'DeeptoneSDK', '~> 0.4'
+  pod 'DeeptoneSDK', '~> 0.5.0'
 end
 ```
 
