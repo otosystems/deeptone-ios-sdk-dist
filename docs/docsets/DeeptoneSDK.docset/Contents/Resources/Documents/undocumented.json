@@ -58,43 +58,29 @@
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile-sdk/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
-      "line": 49,
+      "line": 50,
       "symbol": "DeeptoneOutput.emotions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile-sdk/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
-      "line": 50,
+      "line": 51,
       "symbol": "DeeptoneOutput.genders",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile-sdk/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
-      "line": 51,
+      "line": 52,
       "symbol": "DeeptoneOutput.speeches",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile-sdk/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
-      "line": 52,
-      "symbol": "DeeptoneOutput.identity",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/fatxx/Development/deeptone-mobile-sdk/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 53,
-      "symbol": "DeeptoneOutput.anonymizedIdentity",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/fatxx/Development/deeptone-mobile-sdk/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
-      "line": 54,
-      "symbol": "DeeptoneOutput.anonymizedEmotions",
+      "symbol": "DeeptoneOutput.identity",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }
