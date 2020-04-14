@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DeeptoneSDK-Swift.h</key>
 		<data>
-		ceFLUJ12nbX23RbhA7wtPPS/rZ8=
+		1wyI9dg3EzdqZMsa6KdvqSXRJ3w=
 		</data>
 		<key>Headers/DeeptoneSDK.h</key>
 		<data>
@@ -14,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hHZqmVoAC5fFE8BC4FNFhyRKnd8=
+		+aq+NlWxnTtlRFOSdG/gJHE0owQ=
+		</data>
+		<key>Modules/DeeptoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		tEBrAu1JawxjzRuWBuQSLgi08cs=
+		</data>
+		<key>Modules/DeeptoneSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		tEBrAu1JawxjzRuWBuQSLgi08cs=
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		6KTiKV5kFrejns+0bX47tRLmmUY=
+		frdwfWH7UagLdsZriPMX3GBYnO4=
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TEHRdKe3ov2emxGr9Hkr6IrEIH4=
+		8olRUYgKiKudUyOxsv1rWn1PXo0=
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		6KTiKV5kFrejns+0bX47tRLmmUY=
+		frdwfWH7UagLdsZriPMX3GBYnO4=
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		TEHRdKe3ov2emxGr9Hkr6IrEIH4=
+		8olRUYgKiKudUyOxsv1rWn1PXo0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nKRF5rE9Ib+I1YFAYin/a2CUXTa1FLqqasRF1sl8ggg=
+			QLPpIAxkKjWUw/tLTIS+WBbOvahUunxfTgaqrgRhSek=
 			</data>
 		</dict>
 		<key>Headers/DeeptoneSDK.h</key>
@@ -53,32 +61,46 @@
 			vbsgf843LgEB2LqDFWgf0fGJ69y/kUX747skzV/K858=
 			</data>
 		</dict>
+		<key>Modules/DeeptoneSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fn5k3fySCV69vjVwKBsiwfeBHVQ26aa6S9FxYL8K3bQ=
+			</data>
+		</dict>
+		<key>Modules/DeeptoneSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fn5k3fySCV69vjVwKBsiwfeBHVQ26aa6S9FxYL8K3bQ=
+			</data>
+		</dict>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MOEu2QvxHppJaIcoPmXRIQ/ZcmDN17i3nPgkn48Ua4=
+			XiCnkdtDx+yxnd/PF1GgMQ5bUYre3TvPCHL7lc8X2lk=
 			</data>
 		</dict>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mTdxdSMg9ABpxcchcH3hLkiJDvbvG/f6BvbHbNG50jY=
+			qVoU6VPGn0r8VwjRtr+x17X/xpn61Qo2egE3CmDqe3k=
 			</data>
 		</dict>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MOEu2QvxHppJaIcoPmXRIQ/ZcmDN17i3nPgkn48Ua4=
+			XiCnkdtDx+yxnd/PF1GgMQ5bUYre3TvPCHL7lc8X2lk=
 			</data>
 		</dict>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mTdxdSMg9ABpxcchcH3hLkiJDvbvG/f6BvbHbNG50jY=
+			qVoU6VPGn0r8VwjRtr+x17X/xpn61Qo2egE3CmDqe3k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
