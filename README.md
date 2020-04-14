@@ -20,9 +20,57 @@ import DeeptoneSDK
 let filePath = Bundle.main.path(forResource: "YourModel", ofType: "model")
 let deeptone = try! Deeptone(modelPath: filePath!)
 
+// Get predictions from file
 let audioFile = Bundle.main.path(forResource: "YourAudioFile", ofType: ".m4a")
 let data: DeeptoneOutput = try! deeptone.loadAudioFile(filePath: audioFile!)
+
+
+// Get predictions from the microphone
+var deeptoneStream: DeeptoneStream?
+...
+func startRecording() {
+        deeptoneStream = self.deeptone.stream(
+                onData: { (data: DeeptoneOutput) in
+                    // Handle data over time
+                },
+                onSuccess: { (data: DeeptoneOutput) in
+                    // Handle data at the end of the stream
+                },
+                onError: { (error: DeeptoneSDKError) in
+                    //  Handle errors
+                })
+
+        let input = self.audioEngine.inputNode
+        let format = input.inputFormat(forBus: 0)
+
+        input.installTap(onBus: 0, bufferSize: 8192, format: format, block: { (buf, when) in
+            self.deeptoneStream?.write(audioBuffer: buf)
+        })
+
+        self.audioEngine.prepare()
+        do {
+            try self.audioEngine.start()
+        } catch {
+            debugPrint("BOOM!")
+        }
+    }
+
+    func stopRecording () {
+        guard let deeptoneStream = self.deeptoneStream else {
+            return
+        }
+
+        deeptoneStream.close()
+        self.audioEngine.inputNode.removeTap(onBus: 0)
+        self.audioEngine.stop()
+        self.audioEngine.reset()
+    }
+...
 ```
+
+## API Reference
+
+Please refer to the [documentation](https://otosystems.github.io/deeptone-ios-sdk-dist) for further details on types.
 
 ## Installation
 
@@ -50,7 +98,7 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'DeeptoneSDK', '~> 0.5.0'
+  pod 'DeeptoneSDK', '~> 0.6.0'
 end
 ```
 
@@ -71,5 +119,3 @@ Open your project in Xcode from the .xcworkspace file (not the usual project fil
 ``` bash
 $ open MyProject.xcworkspace
 ```
-
-## [API Reference](https://otosystems.github.io/deeptone-ios-sdk-dist)
