@@ -101,35 +101,35 @@
     {
       "file": "/Users/fatxx/Development/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 75,
-      "symbol": "Result.Success",
+      "symbol": "DeeptoneStartResult.Success",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 76,
-      "symbol": "Result.Failure(_:)",
+      "symbol": "DeeptoneStartResult.Failure(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/classes/ModelHandler+processAudioFile.swift",
       "line": 10,
-      "symbol": "EsLeeceuYTJvTJPMBYaQGjOfCuODspzH.kaGnCNdxdjfmkxZWUjdQwecItaEvcHwo(HXulLsbTSKgpCysYTAROKlcCndlKEjQL:)",
+      "symbol": "ZkMKXUthcrpPHlHYckaEGEFrngTIRxEe.IPMZwuLPGFtzokUeEkFtmqiLuUwyiaBd(ygvQjNtcgfDuZSBlzZyodWJipwkaGAMn:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/classes/ModelHandler+processBuffer.swift",
       "line": 9,
-      "symbol": "EsLeeceuYTJvTJPMBYaQGjOfCuODspzH.processBuffer(buffer:)",
+      "symbol": "ZkMKXUthcrpPHlHYckaEGEFrngTIRxEe.processBuffer(buffer:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/fatxx/Development/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/classes/ModelHandler+runModel.swift",
       "line": 9,
-      "symbol": "EsLeeceuYTJvTJPMBYaQGjOfCuODspzH.eCvuaGyjVrhrMcJDFCMVhHalPJazTYOY(audioBuffer:)",
+      "symbol": "ZkMKXUthcrpPHlHYckaEGEFrngTIRxEe.kFEFZqndQojbFTakFwbrfduCsGVWsKsD(audioBuffer:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }

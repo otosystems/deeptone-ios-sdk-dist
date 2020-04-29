@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hJ7oTNZmHeL5emw9yQkpvlTqm4w=
+		oQNoPJX7uUu4zGDJ/rF1zZKzRyA=
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		hJ7oTNZmHeL5emw9yQkpvlTqm4w=
+		oQNoPJX7uUu4zGDJ/rF1zZKzRyA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tK7E5j3IdD+ZMzp/+0IDGC896BEjp53G9mj2DZPnxT0=
+			1bAa7pDaEELeoS+krcCvU58YnZfjkH2CcsYwReR3JHI=
 			</data>
 		</dict>
 		<key>Modules/DeeptoneSDK.swiftmodule/arm64.swiftdoc</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tK7E5j3IdD+ZMzp/+0IDGC896BEjp53G9mj2DZPnxT0=
+			1bAa7pDaEELeoS+krcCvU58YnZfjkH2CcsYwReR3JHI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

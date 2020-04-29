@@ -23,9 +23,9 @@ let deeptone = Deeptone(key: KEY, modelPath: filePath!)
  
 deeptone.start() { result in
     switch (result) {
-    case Result.Success:
+    case .Success:
         print("SDK is ready!")
-    case Result.Failure(let error):
+    case .Failure(let error):
         print("Something went wrong! Error: ", error)
     }
 }
