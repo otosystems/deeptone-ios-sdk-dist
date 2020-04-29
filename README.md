@@ -6,7 +6,7 @@
 
 - iOS 11.0+
 - Xcode 11.2+
-- Swift 5.0+
+- Swift 5.1.3+
 
 ## Getting Started
 
@@ -17,9 +17,20 @@ import DeeptoneSDK
 ```
 
 ```swift
+let KEY = "YOUR_LICENSE_KEY"
 let filePath = Bundle.main.path(forResource: "YourModel", ofType: "model")
-let deeptone = try! Deeptone(modelPath: filePath!)
+let deeptone = Deeptone(key: KEY, modelPath: filePath!)
+ 
+deeptone.start() { result in
+    switch (result) {
+    case Result.Success:
+        print("SDK is ready!")
+    case Result.Failure(let error):
+        print("Something went wrong! Error: ", error)
+    }
+}
 
+...
 // Get predictions from file
 let audioFile = Bundle.main.path(forResource: "YourAudioFile", ofType: ".m4a")
 let data: DeeptoneOutput = try! deeptone.loadAudioFile(filePath: audioFile!)
@@ -98,7 +109,7 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'DeeptoneSDK', '~> 0.6.0'
+  pod 'DeeptoneSDK', '~> 0.7.0'
 end
 ```
 

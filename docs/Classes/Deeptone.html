@@ -14,7 +14,7 @@
     <a title="Deeptone Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">DeeptoneSDK Docs</a> (61% documented)</p>
+        <p><a href="../index.html">DeeptoneSDK Docs</a> (59% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -46,6 +46,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/DeeptoneSDKInfo.html">DeeptoneSDKInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Result.html">Result</a>
               </li>
             </ul>
           </li>
@@ -103,9 +106,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK0A0C9modelPathACSS_tKcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(modelPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK0A0C9modelPathACSS_tKcfc">init(modelPath:)</a>
+                    <a name="/s:11DeeptoneSDK0A0C3key9modelPathACSS_SStcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(key:modelPath:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK0A0C3key9modelPathACSS_SStcfc">init(key:modelPath:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -115,14 +118,44 @@
                       <div class="abstract">
                         <h1 id='init' class='heading'>init</h1>
 
-<p>Initialize Deeptone with the path to the model provided by OTO Systems.</p>
+<p>Initialize Deeptone class with license key and model path.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">modelPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">modelPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11DeeptoneSDK0A0C5start10completionyyAA6ResultOc_tF"></a>
+                    <a name="//apple_ref/swift/Method/start(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK0A0C5start10completionyyAA6ResultOc_tF">start(completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <h1 id='start' class='heading'>start</h1>
+
+<p>Start configuration of Deeptone, this method is asynchronous and should be executed successfully
+for Deeptone functionality to work correctly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/Result.html">Result</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -161,9 +194,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK0A0C6stream6onData0D7Success0D5ErrorAA0A6StreamCyAA0A6OutputVc_yAKcyAA0A8SDKErrorOctF"></a>
+                    <a name="/s:11DeeptoneSDK0A0C6stream6onData0D7Success0D5ErrorAA0A6StreamCyAA0A6OutputVc_yAKcyAA0A8SDKErrorOctKF"></a>
                     <a name="//apple_ref/swift/Method/stream(onData:onSuccess:onError:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK0A0C6stream6onData0D7Success0D5ErrorAA0A6StreamCyAA0A6OutputVc_yAKcyAA0A8SDKErrorOctF">stream(onData:onSuccess:onError:)</a>
+                    <a class="token" href="#/s:11DeeptoneSDK0A0C6stream6onData0D7Success0D5ErrorAA0A6StreamCyAA0A6OutputVc_yAKcyAA0A8SDKErrorOctKF">stream(onData:onSuccess:onError:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -184,7 +217,7 @@
         <span class="nv">onData</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11DeeptoneSDK0A6OnDataa">DeeptoneOnData</a></span><span class="p">,</span>
         <span class="nv">onSuccess</span><span class="p">:</span> <span class="kd">@escaping</span>  <span class="kt"><a href="../Typealiases.html#/s:11DeeptoneSDK0A9OnSuccessa">DeeptoneOnSuccess</a></span><span class="p">,</span>
         <span class="nv">onError</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11DeeptoneSDK0A7OnErrora">DeeptoneOnError</a></span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DeeptoneStream.html">DeeptoneStream</a></span></code></pre>
+<span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DeeptoneStream.html">DeeptoneStream</a></span></code></pre>
 
                         </div>
                       </div>
@@ -196,7 +229,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2020 <a class="link" href="https://github.com/otosystems/deeptone-ios-sdk-dist" target="_blank" rel="external">OTO Systems</a>. All rights reserved. (Last updated: 2020-04-14)</p>
+          <p>&copy; 2020 <a class="link" href="https://github.com/otosystems/deeptone-ios-sdk-dist" target="_blank" rel="external">OTO Systems</a>. All rights reserved. (Last updated: 2020-04-29)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
