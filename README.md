@@ -109,7 +109,7 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'DeeptoneSDK', '~> 0.7.0'
+  pod 'DeeptoneSDK', '~> 0.7.4'
 end
 ```
 
