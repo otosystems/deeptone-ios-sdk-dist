@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>EmotionPrediction Structure Reference</title>
+    <title>DeeptoneStartResult Enumeration Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Struct/EmotionPrediction" class="dashAnchor"></a>
-    <a title="EmotionPrediction Structure Reference"></a>
+    <a name="//apple_ref/swift/Enum/DeeptoneStartResult" class="dashAnchor"></a>
+    <a title="DeeptoneStartResult Enumeration Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">DeeptoneSDK 1.0.3 Docs</a> (61% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">DeeptoneSDK Reference</a>
         <img id="carat" src="../img/carat.png" />
-        EmotionPrediction Structure Reference
+        DeeptoneStartResult Enumeration Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -88,17 +88,16 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>EmotionPrediction</h1>
+            <h1>DeeptoneStartResult</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EmotionPrediction</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">DeeptoneStartResult</span></code></pre>
 
                 </div>
               </div>
-            <h1 id='emotionprediction' class='heading'>EmotionPrediction</h1>
+            <h1 id='deeptonestartresult' class='heading'>DeeptoneStartResult</h1>
 
-<p>Values vary between 0 and 1 for each type of Emotion prediction.
-Predictions with values of 1 are more likely and 0 are less likely to be true.</p>
+<p>Represents <code>start</code> completion handler callback either success or failure.</p>
 
           </section>
           <section class="section task-group-section">
@@ -107,9 +106,9 @@ Predictions with values of 1 are more likely and 0 are less likely to be true.</
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK17EmotionPredictionV5happySfvp"></a>
-                    <a name="//apple_ref/swift/Property/happy" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK17EmotionPredictionV5happySfvp">happy</a>
+                    <a name="/s:11DeeptoneSDK0A11StartResultO7SuccessyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Success" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK0A11StartResultO7SuccessyA2CmF">Success</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -124,7 +123,7 @@ Predictions with values of 1 are more likely and 0 are less likely to be true.</
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">happy</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">Success</span></code></pre>
 
                         </div>
                       </div>
@@ -134,9 +133,9 @@ Predictions with values of 1 are more likely and 0 are less likely to be true.</
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK17EmotionPredictionV9irritatedSfvp"></a>
-                    <a name="//apple_ref/swift/Property/irritated" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK17EmotionPredictionV9irritatedSfvp">irritated</a>
+                    <a name="/s:11DeeptoneSDK0A11StartResultO7FailureyAcA0A8SDKErrorOcACmF"></a>
+                    <a name="//apple_ref/swift/Element/Failure(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK0A11StartResultO7FailureyAcA0A8SDKErrorOcACmF">Failure(_:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -151,61 +150,7 @@ Predictions with values of 1 are more likely and 0 are less likely to be true.</
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">irritated</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11DeeptoneSDK17EmotionPredictionV7neutralSfvp"></a>
-                    <a name="//apple_ref/swift/Property/neutral" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK17EmotionPredictionV7neutralSfvp">neutral</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">neutral</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11DeeptoneSDK17EmotionPredictionV5tiredSfvp"></a>
-                    <a name="//apple_ref/swift/Property/tired" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK17EmotionPredictionV5tiredSfvp">tired</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tired</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="kt">Failure</span><span class="p">(</span><span class="kt"><a href="../Enums/DeeptoneSDKError.html">DeeptoneSDKError</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
