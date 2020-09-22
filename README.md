@@ -4,9 +4,9 @@
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 11.2+
-- Swift 5.1+
+- iOS 12.0+
+- Xcode 12.0+
+- Swift 5.3+
 
 ## Getting Started
 
@@ -109,7 +109,7 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'DeeptoneSDK', '~> 1.2.1'
+  pod 'DeeptoneSDK', '~> 1.3.0'
 end
 ```
 
