@@ -1,117 +1,117 @@
 {
   "warnings": [
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 20,
       "symbol": "EmotionPrediction.happy",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 21,
       "symbol": "EmotionPrediction.irritated",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 22,
       "symbol": "EmotionPrediction.neutral",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 23,
       "symbol": "EmotionPrediction.tired",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 31,
       "symbol": "GenderPrediction.gender",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 40,
       "symbol": "SpeechPrediction.music",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 41,
       "symbol": "SpeechPrediction.noise",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 42,
       "symbol": "SpeechPrediction.speech",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 49,
       "symbol": "DeeptoneOutput.emotions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 50,
       "symbol": "DeeptoneOutput.genders",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 51,
       "symbol": "DeeptoneOutput.speeches",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 52,
       "symbol": "DeeptoneOutput.identity",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 53,
       "symbol": "DeeptoneOutput.anonymizedIdentity",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 54,
       "symbol": "DeeptoneOutput.anonymizedEmotions",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 76,
       "symbol": "DeeptoneStartResult.Success",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "file": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
       "line": 77,
       "symbol": "DeeptoneStartResult.Failure(_:)",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS"
+  "source_directory": "/Users/lucasgiger/oto/deeptone-mobile/DeeptoneSDK-iOS"
 }
