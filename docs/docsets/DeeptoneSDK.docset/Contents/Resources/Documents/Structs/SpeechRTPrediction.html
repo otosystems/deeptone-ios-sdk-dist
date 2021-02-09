@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Deeptone Class Reference</title>
+    <title>SpeechRTPrediction Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/Deeptone" class="dashAnchor"></a>
-    <a title="Deeptone Class Reference"></a>
+    <a name="//apple_ref/swift/Struct/SpeechRTPrediction" class="dashAnchor"></a>
+    <a title="SpeechRTPrediction Structure Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">DeeptoneSDK 1.4.0 Docs</a> (55% documented)</p>
@@ -29,7 +29,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">DeeptoneSDK Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Deeptone Class Reference
+        SpeechRTPrediction Structure Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -105,17 +105,18 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Deeptone</h1>
+            <h1>SpeechRTPrediction</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Deeptone</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SpeechRTPrediction</span></code></pre>
 
                 </div>
               </div>
-            <h1 id='deeptone' class='heading'>Deeptone</h1>
+            <h1 id='speechrtprediction' class='heading'>SpeechRTPrediction</h1>
 
-<p>Base class which provides methods to handle processing of audio data into <code><a href="../Structs/DeeptoneOutput.html">DeeptoneOutput</a></code>.</p>
+<p>Values vary between 0 and 1 for each type of SpeechRT prediction.
+Predictions with values of 1 are more likely and 0 are less likely to be true.</p>
 
           </section>
           <section class="section task-group-section">
@@ -124,9 +125,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK0A0C3key9modelPathACSS_SStcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(key:modelPath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK0A0C3key9modelPathACSS_SStcfc">init(key:<wbr>modelPath:<wbr>)</a>
+                    <a name="/s:11DeeptoneSDK18SpeechRTPredictionV5musicSfvp"></a>
+                    <a name="//apple_ref/swift/Property/music" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK18SpeechRTPredictionV5musicSfvp">music</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -134,16 +135,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <h1 id='init' class='heading'>init</h1>
-
-<p>Initialize Deeptone class with license key and model path.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">modelPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">music</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
 
                         </div>
                       </div>
@@ -153,9 +152,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK0A0C5start10completionyyAA0A11StartResultOc_tF"></a>
-                    <a name="//apple_ref/swift/Method/start(completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK0A0C5start10completionyyAA0A11StartResultOc_tF">start(completion:<wbr>)</a>
+                    <a name="/s:11DeeptoneSDK18SpeechRTPredictionV5otherSfvp"></a>
+                    <a name="//apple_ref/swift/Property/other" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK18SpeechRTPredictionV5otherSfvp">other</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -163,17 +162,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <h1 id='start' class='heading'>start</h1>
-
-<p>Start configuration of Deeptone, this method is asynchronous and should be executed successfully
-for Deeptone functionality to work correctly.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Enums/DeeptoneStartResult.html">DeeptoneStartResult</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">other</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
 
                         </div>
                       </div>
@@ -183,9 +179,9 @@ for Deeptone functionality to work correctly.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:11DeeptoneSDK0A0C13loadAudioFile8filePathAA0A6OutputVSS_tKF"></a>
-                    <a name="//apple_ref/swift/Method/loadAudioFile(filePath:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK0A0C13loadAudioFile8filePathAA0A6OutputVSS_tKF">loadAudioFile(filePath:<wbr>)</a>
+                    <a name="/s:11DeeptoneSDK18SpeechRTPredictionV6speechSfvp"></a>
+                    <a name="//apple_ref/swift/Property/speech" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11DeeptoneSDK18SpeechRTPredictionV6speechSfvp">speech</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -193,49 +189,14 @@ for Deeptone functionality to work correctly.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <h1 id='loadaudiofile' class='heading'>loadAudioFile</h1>
-
-<p>Receives a file path for an audio file and returns <code><a href="../Structs/DeeptoneOutput.html">DeeptoneOutput</a></code>.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">loadAudioFile</span><span class="p">(</span><span class="nv">filePath</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/DeeptoneOutput.html">DeeptoneOutput</a></span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:11DeeptoneSDK0A0C6stream6onData0D7Success0D5ErrorAA0A6StreamCyAA0A6OutputVc_yAKcyAA0A8SDKErrorOctKF"></a>
-                    <a name="//apple_ref/swift/Method/stream(onData:onSuccess:onError:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:11DeeptoneSDK0A0C6stream6onData0D7Success0D5ErrorAA0A6StreamCyAA0A6OutputVc_yAKcyAA0A8SDKErrorOctKF">stream(onData:<wbr>onSuccess:<wbr>onError:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <h1 id='stream' class='heading'>stream</h1>
-
-<p>Return an instance of <code><a href="../Classes/DeeptoneStream.html">DeeptoneStream</a></code>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stream</span><span class="p">(</span>
-        <span class="nv">onData</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11DeeptoneSDK0A6OnDataa">DeeptoneOnData</a></span><span class="p">,</span>
-        <span class="nv">onSuccess</span><span class="p">:</span> <span class="kd">@escaping</span>  <span class="kt"><a href="../Typealiases.html#/s:11DeeptoneSDK0A9OnSuccessa">DeeptoneOnSuccess</a></span><span class="p">,</span>
-        <span class="nv">onError</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11DeeptoneSDK0A7OnErrora">DeeptoneOnError</a></span>
-<span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/DeeptoneStream.html">DeeptoneStream</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">speech</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
 
                         </div>
                       </div>
