@@ -4,13 +4,13 @@
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 12.0
-- Swift 5.3
+-   iOS 11.0+
+-   Xcode 12.0
+-   Swift 5.3
 
 ## Getting Started
 
-First import __DeeptoneSDK__:
+First import **DeeptoneSDK**:
 
 ```swift
 import DeeptoneSDK
@@ -20,7 +20,7 @@ import DeeptoneSDK
 let KEY = "YOUR_LICENSE_KEY"
 let filePath = Bundle.main.path(forResource: "YourModel", ofType: "model")
 let deeptone = Deeptone(key: KEY, modelPath: filePath!)
- 
+
 deeptone.start() { result in
     switch (result) {
     case Result.Success:
@@ -91,13 +91,14 @@ The recommended approach to use _DeeptoneSDK_ in your project is using the [Coco
 
 Install CocoaPods if not already available:
 
-``` bash
+```bash
 $ [sudo] gem install cocoapods
 $ pod setup
 ```
+
 Go to the directory of your Xcode project, and Create and Edit your Podfile and add _DeeptoneSDK_:
 
-``` bash
+```bash
 $ cd /path/to/MyProject
 $ pod init
 $ edit Podfile
@@ -109,13 +110,13 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'DeeptoneSDK', '~> 1.3.4'
+  pod 'DeeptoneSDK', '~> 1.4.1'
 end
 ```
 
 Install into your project:
 
-``` bash
+```bash
 $ pod install
 ```
 
@@ -127,6 +128,6 @@ $ pod repo update
 
 Open your project in Xcode from the .xcworkspace file (not the usual project file)
 
-``` bash
+```bash
 $ open MyProject.xcworkspace
 ```
