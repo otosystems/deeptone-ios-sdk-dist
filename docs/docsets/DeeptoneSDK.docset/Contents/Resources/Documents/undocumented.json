@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 19,
+      "symbol": "ArousalPrediction.high",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 20,
+      "symbol": "ArousalPrediction.low",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 21,
+      "symbol": "ArousalPrediction.neutral",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 30,
+      "symbol": "EmotionPrediction.happy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 31,
+      "symbol": "EmotionPrediction.irritated",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 32,
+      "symbol": "EmotionPrediction.neutral",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 33,
+      "symbol": "EmotionPrediction.tired",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 41,
+      "symbol": "GenderPrediction.gender",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 50,
+      "symbol": "SpeechPrediction.music",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 51,
+      "symbol": "SpeechPrediction.other",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 52,
+      "symbol": "SpeechPrediction.speech",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 61,
+      "symbol": "SpeechRTPrediction.music",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 62,
+      "symbol": "SpeechRTPrediction.other",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 63,
+      "symbol": "SpeechRTPrediction.speech",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 71,
+      "symbol": "DeeptoneOutput.arousal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 72,
+      "symbol": "DeeptoneOutput.emotions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 73,
+      "symbol": "DeeptoneOutput.gender",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 74,
+      "symbol": "DeeptoneOutput.identity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 75,
+      "symbol": "DeeptoneOutput.speech",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 76,
+      "symbol": "DeeptoneOutput.speechRT",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 98,
+      "symbol": "DeeptoneStartResult.Success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/DeeptoneSDK.swift",
+      "line": 99,
+      "symbol": "DeeptoneStartResult.Failure(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/utils/validateLicensePOST.swift",
+      "line": 15,
+      "symbol": "DeeptoneLicenseRequestResult.Success(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS/DeeptoneSDK/utils/validateLicensePOST.swift",
+      "line": 16,
+      "symbol": "DeeptoneLicenseRequestResult.Failure(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Pedro/Projects/deeptone-mobile/DeeptoneSDK-iOS"
+}
