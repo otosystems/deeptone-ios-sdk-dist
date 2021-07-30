@@ -131,3 +131,7 @@ Open your project in Xcode from the .xcworkspace file (not the usual project fil
 ```bash
 $ open MyProject.xcworkspace
 ```
+
+*** 
+
+**[Open Source Software & Licenses](https://github.com/otosystems/ossnotice/blob/master/NOTICE.md)**
