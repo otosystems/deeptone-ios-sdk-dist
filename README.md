@@ -6,7 +6,7 @@
 
 -   iOS 11.0+
 -   Xcode 12.0
--   Swift 5.3
+-   Swift 5.5
 
 ## Getting Started
 
